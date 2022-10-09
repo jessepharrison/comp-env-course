@@ -1,0 +1,49 @@
+---
+output:
+  rmdformats::html_clean:
+    highlight: kate
+---
+
+
+```{r setup, echo=FALSE, cache=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+# Course schedule
+
+## **Lectures**
+
+- Wed 05 Oct 2022: **Challenges in large-scale environmental data analysis**
+- Wed 12 Oct 2022: **Introduction to parallel R**
+- Wed 19 Oct 2022: **Cluster computing: basics**
+- Wed 26 Oct 2022: **Cluster computing: parallel analysis 1**
+- Wed 02 Nov 2022: **Cluster computing: parallel analysis 2**
+- Wed 09 Nov 2022: **Reproducible data analysis workflows**
+- Wed 16 Nov 2022: **Collaborative coding projects**
+
+## **Live coding classes**
+
+***Note:*** *Each class will make use of real-life or simulated examples of environmental data sets.*
+
+- Fri 07 Oct 2022: **Bottlenecks and benchmarking**
+- Fri 14 Oct 2022: **Parallelising R code**
+- Fri 21 Oct 2022: **Batch jobs and multiprocessing**
+- Fri 28 Oct 2022: **Multithreading and job arrays**
+- Fri 04 Nov 2022: **Multinode analyses**
+- Fri 11 Nov 2022: **R workflows for environmental science**
+- Fri 18 Nov 2022: **Group project launch**
+
+## **Mini-seminar**
+
+- Fri 02 Dec 2022: **Group coding project presentations**
