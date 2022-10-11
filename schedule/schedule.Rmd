@@ -20,7 +20,16 @@ opts_chunk$set(cache=TRUE,
 opts_knit$set(width=75)
 ```
 
-# Course schedule
+# **Course objectives and schedule**
+
+## **Learning objectives**
+
+**With a focus on environmental data, learn basic practical skills in:** 
+
+- Interpreting, writing and running parallelised R code
+- Methods for working on a high-performance computing cluster, with a focus on R
+- Executing reproducible R workflows
+- Working as part of collaborative coding projects
 
 ## **Lectures**
 
@@ -47,3 +56,11 @@ opts_knit$set(width=75)
 ## **Mini-seminar**
 
 - Fri 02 Dec 2022: **Group coding project presentations**
+
+# **Assessment method**
+
+- **Scale 0-5**, based on:
+	- Individual programming tasks (40%)
+	- Group coding project (30%)
+	- Lecture preparation and follow-up assignments (20%)
+	- Group presentations (10%)
